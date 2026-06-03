@@ -10,8 +10,6 @@ h1{
     margin: auto;
     display: block;
     object-fit: cover;
-    margin: 20px;
-
  }
 
  footer{
@@ -39,11 +37,16 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin: 30px;
+    gap: 20px;
  }
  .card{
-    width: 100%;
-    height: 400px;
+    width: 300px;
+    padding: 20px;
     background-color: aliceblue;
     border-radius: 10px;
+ }
+ .card img {
+    width: 100%;
+    height: 150px;
  }
